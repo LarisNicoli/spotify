@@ -29,11 +29,15 @@ body {
     margin:10px 0;
 }
 
+.library{
+    margin: 100px 0 20px 0;
+}
+
 .item-menu i{
     margin-right: 10px;
 }
 
-.layout{
+#layout{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,12 +79,15 @@ body {
 }
 
 .btn{
-    margin-left: 10px;
+    width: 115px;
     padding: 6px 14px;
+
     border: none;
     border-radius: 20px;
-    font-weight: bold;
 
+    font-weight: bold;
+    font-size: 15px;
+    
     cursor: pointer;
 }
 #btn-inscribe{
@@ -91,6 +98,17 @@ body {
 #btn-login{
     background-color: #fff;
     color: #000;
+
+    height: 61px;
+    padding:6px 14px;
+
+    border:none;
+    border-radius:30px;
+
+    font-weight: bolder;
+
+    cursor: pointer;
+
 }
 
 #playlists h1{
@@ -111,13 +129,15 @@ body {
 }
 
 .card-playlist{
-    width: 180px;
+    width: 230px;
+    height: 300px;
     padding: 10px;
     border-radius: 8px;
 }
 
 .playlists-img{
-    width: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 4px;
 }
 
