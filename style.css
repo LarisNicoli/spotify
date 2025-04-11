@@ -38,6 +38,10 @@ body{
     margin-right: 5px;
 }
 
+.plus{
+    margin-left: 140px;
+}
+
 
 #login{
     display: flex;
