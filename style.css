@@ -9,6 +9,7 @@ body{
 }
 
 #layout{
+    width: 20%;
     padding: 20px;
 }
 
@@ -23,6 +24,14 @@ body{
 
 .item-menu{
     margin-bottom: 15px;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.plus{
+    margin-left: 100px;
 }
 
 #login{
@@ -49,6 +58,7 @@ body{
 .item-menu:last-child{
     margin-top:50px;
 }
+
 #texts{
     display: flex;
 }
@@ -56,16 +66,13 @@ body{
 .text-bottom{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    width: 350px;
+    gap:10px;
+    
+    font-size: small;
 }
 
-.texts li:nth-child(7){
-    margin-right: 58px;
-}
-
-.texts li:nth-child(8){
-    margin-right: 150px;
+.text-g{
+    width: 250px;
 }
 
 #section-btn{
