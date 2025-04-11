@@ -1,8 +1,9 @@
 body{
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 #container{
-    height: 100vh;
+
     display: flex;
     background-color: #000;
     color: #fff;
@@ -59,6 +60,15 @@ body{
     margin-top:50px;
 }
 
+.playlist-title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.playlist-description{
+    font-size: small;
+    width: 200px;
+}
 #texts{
     display: flex;
 }
