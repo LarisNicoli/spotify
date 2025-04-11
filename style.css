@@ -27,12 +27,17 @@ body{
     margin-bottom: 15px;
 }
 
+.item-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .icon{
     margin-right: 5px;
 }
 
 .plus{
-    margin-left: 100px;
+    margin-left: 140px;
 }
 
 #login{
@@ -88,7 +93,17 @@ body{
 #section-btn{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 300px;
+}
+
+#section-btn a{
+    text-decoration: none;
+}
+
+#section-btn a:hover{
+    text-decoration: none;
+    color: green;
 }
 
 #btn-inscribe{
@@ -100,9 +115,6 @@ body{
 }
 
 #btn-login{
-    background-color: #fff;
-    color: #000;
-
     height: 40px;
     width: 80px;
 
