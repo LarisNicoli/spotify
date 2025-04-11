@@ -1,109 +1,96 @@
-/* GERAL */
-* {
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-body {
+}
+#container{
+    height: 100vh;
+    display: flex;
     background-color: #000;
-    font-family: Arial, sans-serif;
     color: #fff;
 }
 
-#container{
-    display: flex;
-}
-#logo{
-    width: 100px;
-    padding:15px;
+#layout{
+    padding: 20px;
 }
 
-#nav-list{
+#logo{
+    width: 100px;
+    margin-left: 38px;
+}
+
+.texts{
     list-style: none;
 }
 
 .item-menu{
-    display:flex;
-    align-items: center;
-    margin:10px 0;
-}
-
-.library{
-    margin: 100px 0 20px 0;
-}
-
-.item-menu i{
-    margin-right: 10px;
-}
-
-#layout{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    width: 300px;
-    padding: 20px;
-}
-
-#texts{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 16px;
-    font-size: 12px;
-    color: #fff;
-    padding-right: 10px;
-}
-
-#texts span{
-    white-space: nowrap;
-}
-
-#main{
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
+    margin-bottom: 15px;
 }
 
 #login{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-    padding: 0 20px;
+
+    margin-top: 15px;
 }
 
-#login i{
-    font-size:20px;
-    margin-right: 10px;
+#playlists{
+    height: 100vh;
 }
 
-.btn{
-    width: 115px;
-    padding: 6px 14px;
-
-    border: none;
-    border-radius: 20px;
-
-    font-weight: bold;
-    font-size: 15px;
-    
-    cursor: pointer;
+#section-playlist{
+    display: flex;
+    justify-content: space-between;
 }
+
+#playlist-suges{
+    display: flex;
+    list-style: none;
+}
+
+.item-menu:last-child{
+    margin-top:50px;
+}
+#texts{
+    display: flex;
+}
+
+.text-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 350px;
+}
+
+.texts li:nth-child(7){
+    margin-right: 58px;
+}
+
+.texts li:nth-child(8){
+    margin-right: 150px;
+}
+
+#section-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
 #btn-inscribe{
-    background: transparent;
+    background:transparent;
     color: #fff;
+    border:none;
+
+    cursor: pointer;
 }
 
 #btn-login{
     background-color: #fff;
     color: #000;
 
-    height: 61px;
-    padding:6px 14px;
+    height: 40px;
+    width: 80px;
 
     border:none;
-    border-radius:30px;
+    border-radius:40px;
 
     font-weight: bolder;
 
@@ -111,45 +98,11 @@ body {
 
 }
 
-#playlists h1{
-    margin-bottom: 10px;
-}
-
-#playlists div{
-    display: flex;
-    justify-content: space-between;
-}
-
-#playlist-suges{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-
-    list-style: none;
-}
-
 .card-playlist{
-    width: 230px;
+    width: 300px;
     height: 300px;
-    padding: 10px;
-    border-radius: 8px;
 }
 
-.playlists-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 4px;
-}
-
-.playlist-title{
-    margin-top: 10px;
-    font-weight: bold;
-    color: #fff;
-}
-
-.card-playlist  p{
-    margin-top: 6px;
-    font-size: 12px;
-    color:#b3b3b3;
-
+.card-playlist figure{
+    margin: 0;
 }
