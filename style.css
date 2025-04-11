@@ -5,6 +5,7 @@ body{
 #container{
 
     display: flex;
+    flex-wrap: wrap;
     background-color: #000;
     color: #fff;
 }
@@ -25,6 +26,7 @@ body{
 
 .item-menu{
     margin-bottom: 15px;
+    
 }
 
 .item-menu a{
@@ -36,9 +38,6 @@ body{
     margin-right: 5px;
 }
 
-.plus{
-    margin-left: 140px;
-}
 
 #login{
     display: flex;
@@ -58,6 +57,7 @@ body{
 
 #playlist-suges{
     display: flex;
+    gap: 30px;
     list-style: none;
 }
 
@@ -72,7 +72,7 @@ body{
 
 .playlist-description{
     font-size: small;
-    width: 200px;
+    max-width: 200px;
 }
 #texts{
     display: flex;
@@ -114,7 +114,7 @@ body{
     cursor: pointer;
 }
 
-#btn-login{
+.btn-login{
     height: 40px;
     width: 80px;
 
@@ -128,8 +128,9 @@ body{
 }
 
 .card-playlist{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: 300px
 }
 
 .card-playlist figure{
